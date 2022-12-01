@@ -49,7 +49,6 @@ function setPalette(data) {
 }
 
 document.querySelectorAll(".hex-codes").forEach((hexCode) => {
-  console.log(hexCode.textContent);
   hexCode.addEventListener("click", () => {
     navigator.clipboard.writeText(`${hexCode.textContent}`).then(() => {
       alert(`${hexCode.textContent} copied to clipboard`);
