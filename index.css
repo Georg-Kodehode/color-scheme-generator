@@ -76,6 +76,10 @@ main {
   align-items: center;
   cursor: pointer;
 }
+.hex-codes:hover,
+.hex-codes:focus {
+  color: #635c5c;
+}
 
 .color1 {
   background-color: #f55a5a;
@@ -95,15 +99,4 @@ main {
 
 .color5 {
   background-color: #a626d3;
-}
-
-@media only screen and (max-width: 578px) {
-  /* .user-input {
-    justify-content: space-between;
-    padding: 2px;
-  } */
-  .hex-codes:hover,
-  .hex-codes:focus {
-    color: #635c5c;
-  }
 }
