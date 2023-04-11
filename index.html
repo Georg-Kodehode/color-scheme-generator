@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>Color Scheme Generator</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper" id="wrapper">
+        <div class="user-input">
+          <input class="color-picker" id="color-picker" type="color" />
+          <select
+            name="color-scheme-mode"
+            class="color-scheme-mode"
+            id="color-scheme-mode"
+            value="#F55A5A"
+          >
+            <option value="monochrome" selected>Monochrome</option>
+            <option value="monochrome-dark">Monochrome-dark</option>
+            <option value="monochrome-light">Monochrome-light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-complement</option>
+            <option value="triad">Triad</option>
+          </select>
+          <button class="color-scheme-btn" id="color-scheme-btn">
+            Get color scheme
+          </button>
+        </div>
+        <div class="colors-wrapper">
+          <div class="colors color1" id="color1"></div>
+          <div class="colors color2" id="color2"></div>
+          <div class="colors color3" id="color3"></div>
+          <div class="colors color4" id="color4"></div>
+          <div class="colors color5" id="color5"></div>
+        </div>
+        <div class="hex-codes-wrapper">
+          <p class="hex-codes" id="hex-code1">#F55A5A</p>
+          <p class="hex-codes" id="hex-code2">#2B283A</p>
+          <p class="hex-codes" id="hex-code3">#FBF3AB</p>
+          <p class="hex-codes" id="hex-code4">#AAD1B6</p>
+          <p class="hex-codes" id="hex-code5">#A626D3</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

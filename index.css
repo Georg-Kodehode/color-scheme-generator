@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+}
+
+main {
+  margin: 2rem 0 0 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 550px;
+  height: 550px;
+  background-color: #fffdfe;
+}
+
+.user-input {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color-picker,
+.color-scheme-mode,
+.color-scheme-btn {
+  height: 42px;
+  box-sizing: border-box;
+}
+
+.color-picker {
+  width: 61px;
+  border: 0.5px solid #d1d5db;
+}
+
+.color-scheme-mode,
+.color-scheme-btn {
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.color-scheme-mode {
+  width: 312px;
+  border-radius: 6px;
+}
+
+.color-scheme-btn {
+  width: 123px;
+  border-radius: 4px;
+}
+
+.colors-wrapper,
+.hex-codes-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.colors {
+  height: 414px;
+  width: 110px;
+}
+
+.hex-codes {
+  height: 46px;
+  width: 110px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color1 {
+  background-color: #f55a5a;
+}
+
+.color2 {
+  background-color: #2b283a;
+}
+
+.color3 {
+  background-color: #fbf3ab;
+}
+
+.color4 {
+  background-color: #aad1b6;
+}
+
+.color5 {
+  background-color: #a626d3;
+}
