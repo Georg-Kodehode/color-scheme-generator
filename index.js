@@ -33,7 +33,7 @@ btn.addEventListener("click", () => {
 // set the palette based on the selected color
 function setPalette(data) {
   color1.style.backgroundColor = colorPicker.value;
-  hexCode1.textContent = colorPicker.value;
+  hexCode1.textContent = colorPicker.value.toUpperCase();
 
   color2.style.backgroundColor = data.colors[0].hex.value;
   hexCode2.textContent = data.colors[0].hex.value;
